@@ -1,0 +1,19 @@
+\begin{table}[!h]
+\centering
+\caption{Export growth and external shocks}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\fontsize{8}{10}\selectfont
+\begin{tabular}[t]{lccccccccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{2}{c}{Cluster country} & \multicolumn{2}{c}{Cluster country-date} & \multicolumn{2}{c}{Driscoll-Kraay} & \multicolumn{3}{c}{Fit} \\
+\cmidrule(l{3pt}r{3pt}){2-3} \cmidrule(l{3pt}r{3pt}){4-5} \cmidrule(l{3pt}r{3pt}){6-7} \cmidrule(l{3pt}r{3pt}){8-10}
+Shock & Country coef. & Country se & Country-Date coef. & Country-Date se & DK coef. & DK se & N & R2 & Within R2\\
+\midrule
+ln_global_gdp_yoy & 0.128 & (0.089) & 0.128 & (0.092) & 0.128 & (0.102) & 118517 & 0.000 & 0.000\\
+ln_gdp_us_yoy & 1.265 & (1.790) & 1.265 & (1.589) & 1.265 & (1.144) & 117237 & 0.001 & 0.001\\
+ln_vix & 0.002 & (0.003) & 0.002 & (0.004) & 0.002 & (0.003) & 118517 & 0.000 & 0.000\\
+ln_vix_yoy & -0.058 & (0.049) & -0.058 & (0.063) & -0.058 & (0.079) & 118517 & 0.000 & 0.000\\
+\bottomrule
+\end{tabular}}
+\end{table}
